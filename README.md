@@ -23,11 +23,12 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 
 |`End-user`: Okay | '|
 |`Agent`: Okay, select your option: Customise a Basket or Making a Basket | nnn |
+|Agent:Then what type of Basket do you want? | nnn|
 
-|Agent:Then what type of Basket do you want?
-|End-user:Custom
-|Agent:You have selected Customisation
-|Agent:Thank you for choosing Customisation
+|`End-user`:Custom | '|
+|`Agent`: You have selected Customisation|'|
+|`Agent`: Thank you for choosing Customisation |'|
+
 |End-user:Need to change asset
 |Agent:Okay, a little idea of customising basket is here:
 |Agent:The Ideal Basket comes with multiple assets like equity, ETFs, Future and options. Instead of single, multiple equities from multiple sectors. Equities are |filtered based on the last 5 days performance and ML model.
