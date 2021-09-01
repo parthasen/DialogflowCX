@@ -16,7 +16,7 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 [Big Picture]
 
 ## Testing the Agent
-| Attempt | #1 | #2 |
-| :---: | :---: | :---: |
-| Seconds | 301 | 283 |
+|                           Dialogue                                        |                                    Explanation                                | 
+| :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
+| Seconds | 301 
 
