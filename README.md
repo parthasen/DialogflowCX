@@ -18,11 +18,11 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 ## Testing the Agent
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
-|*End-user*: Hi
-|*Agent*: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share! | nnnnnn|
+|`End-user`: Hi |...|
+|`Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| nnnnnn|
 
-|*End-user*: Okay
-|*Agent*: Okay, select your option: Customise a Basket or Making a Basket | nnn |
+|`End-user`: Okay | '|
+|`Agent`: Okay, select your option: Customise a Basket or Making a Basket | nnn |
 
 |Agent:Then what type of Basket do you want?
 |End-user:Custom
