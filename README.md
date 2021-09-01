@@ -18,6 +18,8 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 ##### Flow of the pages
 ![Flow of the pages](https://github.com/parthasen/DialogflowCX/blob/main/Untitled%20Diagram.drawio.png)
 
+##### Basket customisation or making process
+![Basketing](https://github.com/parthasen/DialogflowCX/blob/main/BAA38DF0-3994-4736-9807-8586F7C34C22.png)
 
 
 ## Testing the Agent
