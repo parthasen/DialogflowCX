@@ -16,7 +16,7 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 ![Process of input and Output](https://github.com/parthasen/DialogflowCX/blob/main/D24907D7-D2F5-4F87-9D9C-A76E1336F3A2.jpeg)
 
 ##### Flow of the pages
-![Flow of the pages](https://github.com/parthasen/DialogflowCX/blob/main/D24907D7-D2F5-4F87-9D9C-A76E1336F3A2.jpeg)
+![Flow of the pages](https://github.com/parthasen/DialogflowCX/blob/main/Untitled%20Diagram.drawio.png)
 
 
 
