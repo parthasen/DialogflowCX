@@ -15,6 +15,13 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 
 ![Process of input and Output](https://github.com/parthasen/DialogflowCX/blob/main/D24907D7-D2F5-4F87-9D9C-A76E1336F3A2.jpeg)
 
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| `End-user`: Hi   `Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| git status     | git status    |
+
+| End-user`: Okay  `Agent`: Okay, select your option: Customise a Basket or Making a Basket Agent:Then what type of Basket do you want? | git diff   | git diff      |
+
 ## Testing the Agent
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
