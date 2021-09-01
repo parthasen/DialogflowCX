@@ -13,7 +13,7 @@ Afterall stock market in the short term is risky and noisy but this chatbot in t
 
 The BigQuery, GCS, AI notebook to make ML models in stack and external private API to make this chatbot highly data data driven (this part is private not open-sourced) and predictive. Dialogflow CX absolutely make designer and developer's work easier, we will be using it to integrate with the Django frontend. 
 
-[Big Picture]
+![Process of input and Output](https://drive.google.com/file/d/1aLsAZOJPREC_6SqkDbrHuBRaGmUYgeFh/view?usp=sharing)
 
 ## Testing the Agent
 |                           Dialogue                                        |                                    Explanation                                | 
