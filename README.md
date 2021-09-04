@@ -29,6 +29,8 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 
 
 
+
+
 ## Testing the Agent
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
@@ -49,4 +51,3 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 |`End-user`: Equity
 |`Agent`: You have selected asset 
 |`Agent`: Thank you for choosing asset| ...| 
-
