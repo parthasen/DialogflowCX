@@ -33,7 +33,10 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
 |`End-user`: Hi 
-|`Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| nnnnnn|
+|`Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| The Default Welcome Intent route in the Default Start Flow is called.
+The fulfillment for this state handler ("Hello, this...") is added to the response queue.
+The agent sends the response queue to the end-user.
+|
 |`End-user`: Okay
 |`Agent`: Okay, select your option: Customise a Basket or Making a Basket
 | `Agent`: Then what type of Basket do you want? | nnn|
