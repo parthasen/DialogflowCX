@@ -1,7 +1,3 @@
-
-
-https://user-images.githubusercontent.com/7211292/132103417-52081c85-7428-44f4-8a01-30335d48325d.mp4
-
 # Dialogflow CX : MyInvestmentBasket
 #### Chatbot to make/cutomise a basket and share!
 Manual Decision making for short term investment using fundamental,social,CS, complex statistical patterns is errorinous by human and inferior in accuracy, if we comare with machine learning based AI. Our data driven AI process brings more insights to users
@@ -31,12 +27,11 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 ##### Code
 ![Basketing](https://github.com/parthasen/DialogflowCX/blob/main/exported_agent_InvestBasketSharing.blob)
 
+## Testing the Agent
 
 https://user-images.githubusercontent.com/7211292/132103428-3c570f9f-af32-4f2e-95b8-06cb9bb27203.mp4
 
 
-
-## Testing the Agent
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
 |`End-user`: Hi | The Default Welcome Intent route in the Default Start Flow is called.
