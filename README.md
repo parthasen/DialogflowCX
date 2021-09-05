@@ -25,7 +25,7 @@ The BigQuery, GCS, AI notebook to make ML models in stack and external private A
 ![Basketing](https://github.com/parthasen/DialogflowCX/blob/main/Screenshot%20from%202021-09-04%2021-29-29.png)
 
 ##### Code
-![Basketing](https://github.com/parthasen/DialogflowCX/blob/main/exported_agent_InvestBasketSharing.blob)
+[Code](https://github.com/parthasen/DialogflowCX/blob/main/exported_agent_InvestBasketSharing.blob)
 
 ## Testing the Agent
 
