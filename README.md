@@ -35,8 +35,7 @@ https://user-images.githubusercontent.com/7211292/132103428-3c570f9f-af32-4f2e-9
 |                           Dialogue                                        |                                    Explanation                                | 
 | :-----------------------------------------------------------------------: | :----------------------------------------------------------------------------:| 
 |`End-user`: Hi | The Default Welcome Intent route in the Default Start Flow is called.
-|`Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| The fulfillment for this state handler ("Hello, this...") is added to the response queue. The agent sends the response queue to the end-user.
-|
+|`Agent`: Hi investors/analysts,this is a custom stock basket building agent. Customise the basket as per your choices and personal preference. During COVID economics and the financial market are changed a bit. If you are following it then share with others. Read books, make baskets and share!| The fulfillment for this state handler ("Hello, this...") is added to the response queue. The agent sends the response queue to the end-user.|
 |`End-user`: Okay
 |`Agent`: Okay, select your option: Customise a Basket or Making a Basket
 | `Agent`: Then what type of Basket do you want? | nnn|
