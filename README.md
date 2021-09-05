@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/7211292/132103428-3c570f9f-af32-4f2e-9
 |`End-user`: no
 |`Agent`: Thanks for confirmation. Your basket is customised.Your basket is ready! Do you want to ORDER?|custom.no intents forces user to place order if user's choice was further change then user goes back to Custom Basket page again.
 |`End-user`: order
-|`Agent`: Thank you for finalising your basket.You are placing your order. You are Robin Hood! Do you want to share with FAMILY or FRIEND? You have option to keep this basket PRIVATE too.What's your choice?
+|`Agent`: Thank you for finalising your basket.You are placing your order. You are Robin Hood! Do you want to share with FAMILY or FRIEND? You have option to keep this basket PRIVATE too.What's your choice?| basket.no intents at order to trade gets evaluated. 
 |`End-user`: private
 |`Agent`: Your basket is shared with none. Awesome!Session ended. See you again. Good bye!| Share parameter value 'none'. It has a fulfillment,which is added to the response queue with its parameter references resolved to actual values supplied by the end-user.
 
