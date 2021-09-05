@@ -40,8 +40,8 @@ https://user-images.githubusercontent.com/7211292/132103428-3c570f9f-af32-4f2e-9
 |`Agent`: "You have selected to know the last day's market. This was last day's market: ... Do you want create a basket of assets to invest?" | market.state.last intent is evaluated when user's input is last. if input is future then market.state.next intent gets evaluated to give response |
 |`End-user`: end user has option to create or not to create.
 |`Agent`: "You have selected to create basket. You can customise or make a Basket. You can make the basket from scratch or you can custom a basket created by AI. What is your choice make or custom?|Flow ends if user input was 'no' becuase 'basket.no' intent gets evaluated. If user input was 'create' the 'basket.yes' intent leads to Basket Choice page which show the message |
-|`End-user`: Custom 
-|`Agent`: You have selected to custom a basket made by AI. Great choice! This is easier and time saving option. Delete the assets (any equity/ETF/option/future) those you do not like to keep.|basket.type-custom intents leads to custom basket. If choice was 'Make' then 'basket.type-make' intents was evaluated to reach Make Basket page|
+|`End-user`: Custom or make
+|`Agent`: You have selected to custom a basket made by AI. Great choice! This is easier and time saving option. Delete the assets (any equity/ETF/option/future) those you do not like to keep.|basket.type-custom intents leads to custom basket. If choice was 'make' then 'basket.type-make' intents was evaluated to reach Make Basket page|
 |`End-user`: delete 
 |`Agent`: You have selected to change assets to custom. You can add assets of your choice or delete from this list.You have changed the assets. Do you want further change?|custom.change intent leads to page Change assets to Custom|
 |`End-user`: no
