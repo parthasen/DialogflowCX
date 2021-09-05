@@ -39,15 +39,15 @@ https://user-images.githubusercontent.com/7211292/132103428-3c570f9f-af32-4f2e-9
 |`End-user`: last or future
 |`Agent`: "You have selected to know the last day's market. This was last day's market: ... Do you want create a basket of assets to invest?" | market.state.last intent is evaluated when user's input is last. if input is future then market.state.next intent gets evaluated to give response |
 |`End-user`: end user has option to create or not to create.
-|`Agent`: Flow ends if user input was no becuase basket.no intent gets evaluated. If user input was 'create' the basket.yes intent leads to Basket Choice page which show the message "You have selected to create basket. You can customise or make a Basket. You can make the basket from scratch or you can custom a basket created by AI. What is your choice make or custom?| nnn|
+|`Agent`: "You have selected to create basket. You can customise or make a Basket. You can make the basket from scratch or you can custom a basket created by AI. What is your choice make or custom?|Flow ends if user input was 'no' becuase 'basket.no' intent gets evaluated. If user input was 'create' the 'basket.yes' intent leads to Basket Choice page which show the message |
 |`End-user`: Custom 
-|`Agent`: You have selected Customisation|...|
-|`Agent`: Thank you for choosing Customisation |...|
-|`End-user`: Need to change asset
-|`Agent`: Okay, a little idea of customising basket is here:
-|`Agent`: The Ideal Basket comes with multiple assets like equity, ETFs, Future and options. Instead of single, multiple equities from multiple sectors. Equities are filtered based on the last 5 days performance and ML model.
-|`End-user`: Asset change
-|`Agent`: Okay, which asset do you want to change?
-|`End-user`: Equity
-|`Agent`: You have selected asset 
-|`Agent`: Thank you for choosing asset| ...| 
+|`Agent`: You have selected to custom a basket made by AI. Great choice! This is easier and time saving option. Delete the assets (any equity/ETF/option/future) those you do not like to keep.|basket.type-custom intents leads to custom basket. If choice was 'Make' then 'basket.type-make' intents was evaluated to reach Make Basket page|
+|`End-user`: delete 
+|`Agent`: You have selected to change assets to custom. You can add assets of your choice or delete from this list.You have changed the assets. Do you want further change?|custom.change intent leads to page Change assets to Custom|
+|`End-user`: no
+|`Agent`: Thanks for confirmation. Your basket is customised.Your basket is ready! Do you want to ORDER?|custom.no intents forces user to place order if user's choice was further change then user goes back to Custom Basket page again.
+|`End-user`: order
+|`Agent`: Thank you for finalising your basket.You are placing your order. You are Robin Hood! Do you want to share with FAMILY or FRIEND? You have option to keep this basket PRIVATE too.What's your choice?
+|`End-user`: private
+|`Agent`: Your basket is shared with none. Awesome!Session ended. See you again. Good bye!| Share parameter value 'none'. It has a fulfillment,which is added to the response queue with its parameter references resolved to actual values supplied by the end-user.
+
